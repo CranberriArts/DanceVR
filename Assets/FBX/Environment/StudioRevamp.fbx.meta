@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 218fa8cd97ffcc84aa0fca7722b5ea69
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: barre_group
+    100002: Ceiling
+    100004: curtain
+    100006: dancebarre01
+    100008: dancebarre02
+    100010: dancebarre03
+    100012: dancebarre04
+    100014: dancebarre05
+    100016: dancebarre06
+    100018: dancebarre07
+    100020: dancebarre:dancebarre01
+    100022: DanceStudio_GEO
+    100024: Floor
+    100026: Mirrors
+    100028: //RootNode
+    100030: Wall_Lining
+    100032: Wall_Lining2
+    100034: Wall_Lining3
+    100036: Walls
+    100038: Walls1
+    100040: Walls2
+    100042: Walls3
+    100044: Windows
+    400000: barre_group
+    400002: Ceiling
+    400004: curtain
+    400006: dancebarre01
+    400008: dancebarre02
+    400010: dancebarre03
+    400012: dancebarre04
+    400014: dancebarre05
+    400016: dancebarre06
+    400018: dancebarre07
+    400020: dancebarre:dancebarre01
+    400022: DanceStudio_GEO
+    400024: Floor
+    400026: Mirrors
+    400028: //RootNode
+    400030: Wall_Lining
+    400032: Wall_Lining2
+    400034: Wall_Lining3
+    400036: Walls
+    400038: Walls1
+    400040: Walls2
+    400042: Walls3
+    400044: Windows
+    2100000: lambert2
+    2100002: lambert3
+    2100004: lambert4
+    2100006: lambert5
+    2100008: lambert1
+    2300000: Ceiling
+    2300002: curtain
+    2300004: dancebarre01
+    2300006: dancebarre02
+    2300008: dancebarre03
+    2300010: dancebarre04
+    2300012: dancebarre05
+    2300014: dancebarre06
+    2300016: dancebarre07
+    2300018: dancebarre:dancebarre01
+    2300020: Floor
+    2300022: Mirrors
+    2300024: Wall_Lining
+    2300026: Wall_Lining2
+    2300028: Wall_Lining3
+    2300030: Walls
+    2300032: Walls1
+    2300034: Walls2
+    2300036: Walls3
+    2300038: Windows
+    3300000: Ceiling
+    3300002: curtain
+    3300004: dancebarre01
+    3300006: dancebarre02
+    3300008: dancebarre03
+    3300010: dancebarre04
+    3300012: dancebarre05
+    3300014: dancebarre06
+    3300016: dancebarre07
+    3300018: dancebarre:dancebarre01
+    3300020: Floor
+    3300022: Mirrors
+    3300024: Wall_Lining
+    3300026: Wall_Lining2
+    3300028: Wall_Lining3
+    3300030: Walls
+    3300032: Walls1
+    3300034: Walls2
+    3300036: Walls3
+    3300038: Windows
+    4300000: Walls
+    4300002: Floor
+    4300004: Mirrors
+    4300006: Wall_Lining
+    4300008: Windows
+    4300010: Ceiling
+    4300012: Wall_Lining2
+    4300014: Wall_Lining3
+    4300016: Walls1
+    4300018: Walls2
+    4300020: Walls3
+    4300022: curtain
+    4300024: dancebarre01
+    4300026: dancebarre:dancebarre01
+    4300028: dancebarre02
+    4300030: dancebarre03
+    4300032: dancebarre04
+    4300034: dancebarre05
+    4300036: dancebarre06
+    4300038: dancebarre07
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

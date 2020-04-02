@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.mocap_pleasework.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\VRMachine1\\Documents\\SoftLabFiles\\MoCap_PleaseWork\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "MoCap_PleaseWork [Testing]"
+        }
+      }
+    }
+  ]
+}
