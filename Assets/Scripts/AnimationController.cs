@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class AnimationController : MonoBehaviour
 {
     public Slider slider;
+    public Animator idleAnimator, parAnimator;
     private Animator animator;
     private bool animPlaying, settingsToggled;
     public GameObject Play, Pause, SettingsPanel;
@@ -13,7 +14,8 @@ public class AnimationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        parAnimator.speed = 0.0f;
+        animator = idleAnimator;
         animator.speed = 0.0f;
         settingsToggled = true;
         ToggleSettings();
@@ -63,12 +65,46 @@ public class AnimationController : MonoBehaviour
 
     public void LoadArmAnimation()
     {
-        if (animName != null)
-        {
-            animator.SetBool(animName, false);
-        }
+        ResetAnimation();
+        animator.SetBool(animName, false);
+        animator.gameObject.SetActive(false);
+        idleAnimator.gameObject.SetActive(true);
+        animator = idleAnimator;
         animator.SetBool("ArmAnimation", true);
         animName = "ArmAnimation";
+    }
+
+    public void Load1stToPar()
+    {
+        ResetAnimation();
+        animator.SetBool(animName, false);
+        animator.gameObject.SetActive(false);
+        parAnimator.gameObject.SetActive(true);
+        animator = parAnimator;
+        animator.SetBool("1stToPar", true);
+        animName = "1stToPar";
+    }
+
+    public void LoadBackFoot()
+    {
+        ResetAnimation();
+        animator.SetBool(animName, false);
+        animator.gameObject.SetActive(false);
+        idleAnimator.gameObject.SetActive(true);
+        animator = idleAnimator;
+        animator.SetBool("BackFootLift", true);
+        animName = "BackFootLift";
+    }
+
+    public void LoadEnbase()
+    {
+        ResetAnimation();
+        animator.SetBool(animName, false);
+        animator.gameObject.SetActive(false);
+        parAnimator.gameObject.SetActive(true);
+        animator = parAnimator;
+        animator.SetBool("EnbaseAnimation", true);
+        animName = "EnbaseAnimation";
     }
 
     public void PlayAnim()
