@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.mocap_pleasework.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "D:\\ResearchProjects\\DanceVR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\carme\\Documents\\DanceVR\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "MoCap_PleaseWork [Testing]"

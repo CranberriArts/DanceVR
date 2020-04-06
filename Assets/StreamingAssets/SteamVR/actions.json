@@ -92,7 +92,12 @@
       "usage": "single"
     }
   ],
-  "default_bindings": [],
+  "default_bindings": [
+    {
+      "controller_type": "vive_controller",
+      "binding_url": "application_generated_unity_mocap_pleasework_exe_binding_vive_controller.json"
+    }
+  ],
   "localization": [
     {
       "language_tag": "en_US",
